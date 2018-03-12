@@ -6,8 +6,8 @@ DEBIAN_ARCH ?= armhf
 
 CLEAN_FILES = $(TAG)
 
-# Mostly because this is a good place to find the xr819 firmware
-ARMBIAN_FIRMWARE_PKG = armbian-firmware
+# Mostly because armbian-firmware is a good place to find the xr819 firmware
+ARMBIAN_FIRMWARE_PKG = armbian-firmware firmware-atheros
 
 # firmware for wifi dongle (note, some overlap with armbian-firmware)
 RASPBIAN_FIRMWARE_PKG = firmware-brcm80211 firmware-ralink firmware-atheros
