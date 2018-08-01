@@ -95,8 +95,6 @@ $(RASPBERRYPI)/boot/start_cd.elf: $(TAG)/raspberrypi
 $(RASPBERRYPI)/boot/kernel7.img: $(TAG)/raspberrypi
 $(RASPBERRYPI)/boot/COPYING.linux: $(TAG)/raspberrypi
 $(RASPBERRYPI)/boot/LICENCE.broadcom: $(TAG)/raspberrypi
-$(RASPBERRYPI)/boot/bcm2709-rpi-2-b.dtb: $(TAG)/raspberrypi
-$(RASPBERRYPI)/boot/bcm2710-rpi-3-b.dtb: $(TAG)/raspberrypi
 $(RASPBERRYPI)/boot/bcm2710-rpi-3-b-plus.dtb: $(TAG)/raspberrypi
 $(RASPBERRYPI)/boot/bcm2710-rpi-cm3.dtb: $(TAG)/raspberrypi
 
@@ -110,8 +108,6 @@ BOOT_FILES = \
     $(BOOT)/config.txt \
     $(BOOT)/COPYING.linux \
     $(BOOT)/LICENCE.broadcom \
-    $(BOOT)/bcm2709-rpi-2-b.dtb \
-    $(BOOT)/bcm2710-rpi-3-b.dtb \
     $(BOOT)/bcm2710-rpi-3-b-plus.dtb \
     $(BOOT)/bcm2710-rpi-cm3.dtb \
 
